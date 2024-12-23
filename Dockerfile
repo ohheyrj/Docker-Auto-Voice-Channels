@@ -1,4 +1,4 @@
-FROM python:slim
+FROM python:3.11-slim
 
 ENV DISABLE_LOOP=false
 ENV HEARTBEAT_TIMEOUT=60
